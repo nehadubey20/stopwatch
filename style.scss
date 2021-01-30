@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
 }
-/* Variabes */  
+
 $orange:   #000000;
 $grey:#f3f3f3;
 $white: #fff;
 $base-color:$orange ;
 
-
-/* Mixin's */  
     @mixin transition {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -58,7 +56,7 @@ $base-color:$orange ;
     padding:18px 10px;
     width:180px;
     margin: 10px;
-     outline: none;
+    outline: none;
       &:hover{
         @include transition;
         background:$white;
